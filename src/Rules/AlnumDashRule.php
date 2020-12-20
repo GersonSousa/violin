@@ -13,7 +13,7 @@ class AlnumDashRule implements RuleContract
 
     public function error()
     {
-        return '{field} must be alphanumeric with dashes and underscores permitted.';
+        return '{field} deve ser alfanumérico, traços e sublinhados são permitidos.';
     }
 
     public function canSkip()
