@@ -13,7 +13,7 @@ class AlphaRule implements RuleContract
 
     public function error()
     {
-        return '{field} must be alphabetic.';
+        return '{field} deve apenas conter letras.';
     }
 
     public function canSkip()
