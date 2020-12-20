@@ -13,7 +13,7 @@ class MatchesRule implements RuleContract
 
     public function error()
     {
-        return '{field} must match {$0}.';
+        return '{field} deve coincidir com {$0}.';
     }
 
     public function canSkip()
