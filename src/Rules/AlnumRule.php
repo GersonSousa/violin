@@ -13,7 +13,7 @@ class AlnumRule implements RuleContract
 
     public function error()
     {
-        return '{field} must be alphanumeric.';
+        return '{field} deve ser alfanumérico.';
     }
 
     public function canSkip()
